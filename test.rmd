@@ -1,12 +1,35 @@
 ---
-title: Tal og data fra KUB Datalab
-output: html_document
-htmlwidgets: TRUE
-always_allow_html: true
+title: "Untitled"
+author: "Christian Knudsen"
+date: '2022-09-21'
+output: slidy_presentation
 ---
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-source(here::here("rmd_config.R"))
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Indtil videre ikke så mange, men om lidt udelukkende fra vores kursussystem.
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
