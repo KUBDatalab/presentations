@@ -12,15 +12,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ## en liste
 
 ```{r}
-liste <- list.files( pattern = ".Rmd", recursive = T)
-navne <- gsub("Rmd", "html", liste)
-print(liste)
-print(navne)
-liste
-navne
+liste <- list.files(path = "slides", pattern = ".html", recursive = T)
+liste <- paste0("[", liste, "](", liste, ")")
+
+
 ```
-
-
+`r liste`
 
 
 
