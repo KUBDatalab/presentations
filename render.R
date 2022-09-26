@@ -3,6 +3,6 @@ liste <- list.files(path = "slides", pattern = ".Rmd", recursive = T, include.di
 
 
 for(i in 1:length(liste)){
-  rmarkdown::render(liste[i], "slidy_presentation")
+  rmarkdown::render(liste[i])
 }
-getwd()
+
