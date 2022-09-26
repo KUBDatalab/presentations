@@ -2,7 +2,9 @@
 title: "Untitled"
 author: "Christian Knudsen"
 date: '2022-09-21'
-output: slidy_presentation
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
