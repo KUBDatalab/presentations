@@ -11,6 +11,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## en liste
 
+```{r}
+liste <- list.files( pattern = ".Rmd", recursive = T)
+navne <- gsub("Rmd", "html", liste)
+print(liste)
+print(navne)
+liste
+navne
+```
+
+
+
+
 
 ```{r cars}
 list.files(path="slides", pattern = ".html", recursive = T)
