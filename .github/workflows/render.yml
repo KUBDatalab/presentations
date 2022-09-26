@@ -44,7 +44,7 @@ jobs:
       - name: Render filer2
         env: 
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET}}
-        run: Rscript -e 'liste <- list.files(path = "slides", pattern = ".Rmd", recursive = T, include.dirs = T, full.names = T); for(i in 1:length(liste)){rmarkdown::render(liste[i], "slidy_presentation")}'
+        run: Rscript -e 'rmarkdown::render("slides/standard_pres/slides.Rmd', output_format = "slidy_presentation", output_file = "slides.html")'
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
