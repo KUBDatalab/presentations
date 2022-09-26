@@ -40,7 +40,7 @@ jobs:
       - name: Render tallene
         env: 
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET}}
-        run: Rscript -e 'rmarkdown::slidy_presentation("test.rmd")'
+        run: Rscript -e 'rmarkdown::slidy_presentation("test.Rmd")'
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
