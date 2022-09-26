@@ -1,28 +1,42 @@
-## R Markdown
+## en liste
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+    liste <- list.files( pattern = ".Rmd", recursive = T)
+    navne <- gsub("Rmd", "html", liste)
+    print(liste)
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+    ## [1] "README.Rmd"                      "slides/standard_pres/slides.Rmd"
 
-    summary(cars)
+    print(navne)
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+    ## [1] "README.html"                      "slides/standard_pres/slides.html"
 
-## Including Plots
+    liste
 
-You can also embed plots, for example:
+    ## [1] "README.Rmd"                      "slides/standard_pres/slides.Rmd"
 
-![](README_files/figure-markdown_strict/pressure-1.png)
+    navne
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+    ## [1] "README.html"                      "slides/standard_pres/slides.html"
+
+    list.files(path="slides", pattern = ".html", recursive = T)
+
+    ## character(0)
+
+## hvordan?
+
+Placer det (R)markdown dokument der indeholder dine slides i mappen
+slides. Giv dine slides deres egen mappe.
+
+som i: | |- slides | |- 20220921\_panum\_pres | |- slides.rmd
+
+## herunder renderer vi:
+
+Det er lettere end at smide det i render.yml
+
+det her er kopieret ud fra render.yml rmarkdown::render(“test.Rmd”,
+“slidy\_presentation”, “test.html”)
+
+liste &lt;- list.files( pattern = “.Rmd”, full.names = T, recursive = T,
+include.dirs = T); navne &lt;- gsub(“Rmd”, “html”, liste); for(i in
+1:length(liste)){ rmarkdown::render(liste\[i\], “slidy\_presentation”,
+navne\[i\]) };
