@@ -1,22 +1,9 @@
 ## en liste
 
-    liste <- list.files( pattern = ".Rmd", recursive = T)
-    navne <- gsub("Rmd", "html", liste)
-    print(liste)
+    liste <- list.files(path = "slides", pattern = ".html", recursive = T)
+    liste <- paste0("[", liste, "](", liste, ")")
 
-    ## [1] "README.Rmd"                      "slides/standard_pres/slides.Rmd"
-
-    print(navne)
-
-    ## [1] "README.html"                      "slides/standard_pres/slides.html"
-
-    liste
-
-    ## [1] "README.Rmd"                      "slides/standard_pres/slides.Rmd"
-
-    navne
-
-    ## [1] "README.html"                      "slides/standard_pres/slides.html"
+[]()
 
     list.files(path="slides", pattern = ".html", recursive = T)
 
