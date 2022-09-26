@@ -31,20 +31,14 @@ jobs:
           Rscript -e 'install.packages("readr")'
           Rscript -e 'install.packages("openssl")'
           Rscript -e 'install.packages("zoo")'
-          Rscript -e 'install.packages("revealjs")'
-          Rscript -e 'install.packages("xaringan")'
       - name: Render README
         env: 
           TEST_SECRET: ${{ secrets.TEST_SECRET}}
-        run: Rscript -e 'rmarkdown::render("README.Rmd", output_format = "md_document", output_file = "README.md")'
-      - name: Render filer
+        run: Rscript -e 'rmarkdown::render("README.Rmd", output_format = "md_document")'
+      - name: Render tallene
         env: 
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET}}
-        run: Rscript -e 'source("render.R")'
-      - name: Render filer2
-        env: 
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET}}
-        run: Rscript -e 'rmarkdown::render("slides/standard_pres/slides.Rmd", output_format = "slidy_presentation", output_file = "slides.html")'
+        run: Rscript -e 'rmarkdown::render("tallene.Rmd", output_format = "html_document")'
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"

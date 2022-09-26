@@ -1,55 +1,18 @@
 ---
-title: "KUB datalab præsentationer"
-author: "Christian Knudsen"
-date: '2022-09-21'
+title: Tal og data fra KUB Datalab
 output: html_document
+htmlwidgets: TRUE
+always_allow_html: true
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+source(here::here("rmd_config.R"))
 ```
 
-## en liste
+Indtil videre ikke så mange, men om lidt udelukkende fra vores kursussystem.
 
 ```{r}
-liste <- list.files(path = "slides", pattern = ".html", recursive = T)
-liste <- paste0("[", liste, "](", liste, ")")
-
-
+TEST_SECRET <- Sys.getenv("TEST_SECRET")
+print(TEST_SECRET)
 ```
-`r liste`
-
-
-
-```{r cars}
-list.files(path="slides", pattern = ".html", recursive = T)
-```
-
-## hvordan?
-
-Placer det (R)markdown dokument der indeholder dine slides i mappen slides.
-Giv dine slides deres egen mappe. 
-
-som i:
-|
-|- slides
-  |
-  |- 20220921_panum_pres
-    |
-    |- slides.rmd
-    
-
-## herunder renderer vi:
-Det er lettere end at smide det i render.yml
-
-det her er kopieret ud fra render.yml
-rmarkdown::render("test.Rmd", "slidy_presentation", "test.html")
-
-
-liste <- list.files( pattern = ".Rmd", full.names = T, recursive = T, include.dirs = T);
-navne <- gsub("Rmd", "html", liste);
-for(i in 1:length(liste)){
-  rmarkdown::render(liste[i], "slidy_presentation", navne[i])
-};
-
 
