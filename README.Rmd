@@ -23,3 +23,9 @@ liste <- paste0("[",url,"](", files, ")\\n")
 
 ## og et til
 `r liste`
+
+## files
+`r files`
+
+## url
+`r url`
