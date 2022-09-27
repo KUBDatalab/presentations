@@ -1,7 +1,8 @@
 Indtil videre ikke så mange, men om lidt udelukkende fra vores
 kursussystem.
 
-    TEST_SECRET <- Sys.getenv("TEST_SECRET")
-    print(TEST_SECRET)
+    library(here)
 
-    ## [1] ""
+    ## here() starts at /Users/runner/work/presentations/presentations
+
+    # rmarkdown::render(here::here(here::here(), "slides/test.Rmd"), output_format = "slidy_presentation")
