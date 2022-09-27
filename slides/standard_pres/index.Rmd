@@ -5,9 +5,14 @@ output:
     footer: "KUB Datalab"
     css: ../../css/default.css
 ---
-output: slidy_presentation
 
-Start med at læse og forstå dette:
+
+## KUB Datalab
+
+
+Standard præsentation
+
+output: slidy_presentation
 
 Tallene trækkes fra vores kalendersystem. Vi tæller tilmeldinger.
 
