@@ -22,7 +22,7 @@ Det kunne være cool at samkøre data med vores kursus-registreringer.
 
 Skaf mig en API-adgang til det, så skal det nok ske.
 
-```{r setup, include=FALSE}
+```{r setup2, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 # source(here::here("rmd_config.R"))
 
