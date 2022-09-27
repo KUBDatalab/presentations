@@ -22,3 +22,10 @@ liste <- paste0("[",url,"](", files, ")\\n")
 
 `r cat(liste)`
 
+
+# endnu et forsøg på links
+`r print(liste)`
+
+
+## og et til
+`r liste`
