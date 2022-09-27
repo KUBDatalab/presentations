@@ -1,0 +1,43 @@
+---
+title: KUB Datalab
+output:
+  slidy_presentation:
+    footer: "KUB Datalab"
+    css: ../../css/default.css
+---
+
+
+## KUB Datalab
+
+
+Standard præsentation
+
+output: slidy_presentation
+
+Tallene trækkes fra vores kalendersystem. Vi tæller tilmeldinger.
+
+Men vi registerer ikke i kalendersystemet hvor mange der dukkede op.
+
+Det kunne vi godt. 
+
+Men det gør vi ikke.
+
+Så det kan vi ikke trække ud.
+
+Det kunne være cool at samkøre data med vores kursus-registreringer.
+
+Skaf mig en API-adgang til det, så skal det nok ske.
+
+```{r setup2, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# source(here::here("rmd_config.R"))
+
+```
+Det vil sige, at der sagtens kan have været flere events i 2020 end 24. 
+Fremadrettet skulle data gerne være gemt for eftertiden her.
+
+## Antal tilmeldinger pr måned:
+
+Ja, der skal pilles lidt ved akseetiketter og den slags.
+
+##Vi skal nok også have en graf med opdeling i tilmeldinger og ventelister.
