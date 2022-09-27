@@ -6,10 +6,12 @@ kursussystem.
     ## here() starts at /Users/runner/work/presentations/presentations
 
     files <- list.files(path = "slides", pattern = "html", recursive = T)
-    files <- here(here(), "slides", files)
+    url <- paste0("https://kubdatalab.github.io/presentations/", "slides/", files)
+    liste <- paste0("[",url,"](", files, ")\\n")
+    liste
 
-/Users/runner/work/presentations/presentations/slides/standard\_pres/dukker\_den\_op.html,
-/Users/runner/work/presentations/presentations/slides/standard\_pres/tester.html,
-/Users/runner/work/presentations/presentations/slides/standard\_pres/testeren.html,
-/Users/runner/work/presentations/presentations/slides/test.html,
-/Users/runner/work/presentations/presentations/slides/tester.html
+    ## [1] "[https://kubdatalab.github.io/presentations/slides/standard_pres/dukker_den_op.html](standard_pres/dukker_den_op.html)\\n"
+    ## [2] "[https://kubdatalab.github.io/presentations/slides/standard_pres/tester.html](standard_pres/tester.html)\\n"              
+    ## [3] "[https://kubdatalab.github.io/presentations/slides/standard_pres/testeren.html](standard_pres/testeren.html)\\n"          
+    ## [4] "[https://kubdatalab.github.io/presentations/slides/test.html](test.html)\\n"                                              
+    ## [5] "[https://kubdatalab.github.io/presentations/slides/tester.html](tester.html)\\n"
