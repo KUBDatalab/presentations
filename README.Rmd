@@ -17,7 +17,8 @@ library(here)
 files <- list.files(path = "slides", pattern = "html", recursive = T)
 url <- paste0("https://kubdatalab.github.io/presentations/", "slides/", files)
 liste <- paste0("[",url,"](", files, ")\\n")
-liste
+
 ```
-`r cat(liste) `
+
+`r cat(liste)`
 
