@@ -4,7 +4,8 @@ output:
   ioslides_presentation: default
   slidy_presentation: default
 ---
-output: slidy_presentation
+
+## output: slidy_presentation
 
 Start med at læse og forstå dette:
 
