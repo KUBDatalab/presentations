@@ -12,7 +12,7 @@ source(here::here("rmd_config.R"))
 Indtil videre ikke så mange, men om lidt udelukkende fra vores kursussystem.
 
 ```{r}
-rmarkdown::render(here(here(), "/slides/test.Rmd"), output_format = "slidy_presentation")
+rmarkdown::render(here(here(), "slides/test.Rmd"), output_format = "slidy_presentation")
 ```
 
 
