@@ -3,7 +3,7 @@ title: KUB Datalab
 output:
   slidy_presentation:
     footer: "KUB Datalab"
-    logo: ../../pic/image1.png
+    logo: image1.png
     css: ../../css/default.css
 ---
 ```{r setup2, include=FALSE}
