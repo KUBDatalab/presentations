@@ -7,3 +7,16 @@
 [https://kubdatalab.github.io/presentations/slides/standard\_pres/testeren.html](standard_pres/testeren.html),
 [https://kubdatalab.github.io/presentations/slides/test.html](test.html),
 [https://kubdatalab.github.io/presentations/slides/tester.html](tester.html)
+
+## files
+
+standard\_pres/dukker\_den\_op.html, standard\_pres/tester.html,
+standard\_pres/testeren.html, test.html, tester.html
+
+## url
+
+<https://kubdatalab.github.io/presentations/slides/standard_pres/dukker_den_op.html>,
+<https://kubdatalab.github.io/presentations/slides/standard_pres/tester.html>,
+<https://kubdatalab.github.io/presentations/slides/standard_pres/testeren.html>,
+<https://kubdatalab.github.io/presentations/slides/test.html>,
+<https://kubdatalab.github.io/presentations/slides/tester.html>
