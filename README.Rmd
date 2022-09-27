@@ -1,5 +1,5 @@
 ---
-title: Tal og data fra KUB Datalab
+title: Præsentationer fra KUB Datalab
 output: html_document
 htmlwidgets: TRUE
 always_allow_html: true
@@ -9,9 +9,9 @@ knitr::opts_chunk$set(echo = TRUE)
 source(here::here("rmd_config.R"))
 ```
 
-Indtil videre ikke så mange, men om lidt udelukkende fra vores kursussystem.
 
-```{r}
+
+```{r echo  = F}
 library(here)
 
 files <- list.files(path = "slides", pattern = "html", recursive = T)
@@ -19,12 +19,6 @@ url <- paste0("https://kubdatalab.github.io/presentations/", "slides/", files)
 liste <- paste0("[",url,"](", files, ")\\n")
 
 ```
-
-`r cat(liste)`
-
-
-# endnu et forsøg på links
-`r print(liste)`
 
 
 ## og et til
