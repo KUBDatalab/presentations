@@ -35,8 +35,6 @@ jobs:
         env: 
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET}}
         run: |
-          Rscript -e 'rmarkdown::render("tallene.Rmd", output_format = "slidy_presentation")'
-          Rscript -e 'rmarkdown::render(here::here(here::here(), "slides/test.Rmd"), output_format = "slidy_presentation")'
           Rscript -e 'source("render.R")'
       - name: Render README
         env: 
