@@ -57,10 +57,10 @@ https://hack4.dk/  - men nok lidt sent lige nu.
 
 ## Hvad kan vi?
 
-R
-Python
-Excel
-Struktur af data
+* R
+* Python
+* Excel
+* Struktur af data
 
 
 ## Contact
