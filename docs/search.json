@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "slides/test.html",
-    "href": "slides/test.html",
-    "title": "Statistik",
-    "section": "",
-    "text": "Ja, det er fejl I kommer til at begå. For de bliver begået så ofte, at de har fået navne."
-  },
-  {
-    "objectID": "slides/test.html#antal-tilmeldinger-pr-måned",
-    "href": "slides/test.html#antal-tilmeldinger-pr-måned",
-    "title": "Tal og data fra KUB Datalab",
-    "section": "Antal tilmeldinger pr måned:",
-    "text": "Antal tilmeldinger pr måned:\nJa, der skal pilles lidt ved akseetiketter og den slags.\n##Vi skal nok også have en graf med opdeling i tilmeldinger og ventelister."
-  },
-  {
-    "objectID": "slides/tester.html",
-    "href": "slides/tester.html",
-    "title": "Tal og data fra KUB Datalab",
-    "section": "",
-    "text": "output: slidy_presentation\nStart med at læse og forstå dette:\nTallene trækkes fra vores kalendersystem. Vi tæller tilmeldinger.\nMen vi registerer ikke i kalendersystemet hvor mange der dukkede op.\nDet kunne vi godt.\nMen det gør vi ikke.\nSå det kan vi ikke trække ud.\nDet kunne være cool at samkøre data med vores kursus-registreringer.\nSkaf mig en API-adgang til det, så skal det nok ske.\nDet vil sige, at der sagtens kan have været flere events i 2020 end 24. Fremadrettet skulle data gerne være gemt for eftertiden her."
-  },
-  {
-    "objectID": "slides/tester.html#antal-tilmeldinger-pr-måned",
-    "href": "slides/tester.html#antal-tilmeldinger-pr-måned",
-    "title": "Tal og data fra KUB Datalab",
-    "section": "Antal tilmeldinger pr måned:",
-    "text": "Antal tilmeldinger pr måned:\nJa, der skal pilles lidt ved akseetiketter og den slags.\n##Vi skal nok også have en graf med opdeling i tilmeldinger og ventelister."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "KUB Datalab slides",
-    "section": "",
-    "text": "Præsentationer\n\nDemo - mit første forsøg\nnr 2"
-  },
-  {
-    "objectID": "slides/standard_pres/index.html",
-    "href": "slides/standard_pres/index.html",
-    "title": "KUB Datalab",
-    "section": "",
-    "text": "Korrekt rød farve: a31d20"
-  },
-  {
-    "objectID": "slides/standard_pres/index.html#kub-datalab",
-    "href": "slides/standard_pres/index.html#kub-datalab",
-    "title": "KUB Datalab",
-    "section": "",
-    "text": "Korrekt rød farve: a31d20"
-  },
-  {
-    "objectID": "slides/standard_pres/index.html#hvem-er-vi",
-    "href": "slides/standard_pres/index.html#hvem-er-vi",
-    "title": "KUB Datalab",
-    "section": "Hvem er vi?",
-    "text": "Hvem er vi?\nhttps://libapps-eu.s3.amazonaws.com/customers/105/images/cbk.jpg\nhttps://libapps-eu.s3.amazonaws.com/customers/105/images/lakj.jpg\nhttps://libapps-eu.s3.amazonaws.com/customers/105/images/pryn.jpg"
-  },
-  {
-    "objectID": "slides/standard_pres/index.html#hvad-laver-vi",
-    "href": "slides/standard_pres/index.html#hvad-laver-vi",
-    "title": "KUB Datalab",
-    "section": "Hvad laver vi?",
-    "text": "Hvad laver vi?\nSå lidt som muligt"
-  },
-  {
-    "objectID": "slides/standard_pres/index.html#hvad-kan-vi",
-    "href": "slides/standard_pres/index.html#hvad-kan-vi",
-    "title": "KUB Datalab",
-    "section": "Hvad kan vi?",
-    "text": "Hvad kan vi?\nAlt! Der er intet vi ikke kan finde ud af!!"
-  },
-  {
-    "objectID": "slides/dblabpres.html",
-    "href": "slides/dblabpres.html",
-    "title": "KUB Datalab",
-    "section": "",
-    "text": "Korrekt rød farve: a31d20"
-  },
-  {
-    "objectID": "slides/dblabpres.html#kub-datalab",
-    "href": "slides/dblabpres.html#kub-datalab",
-    "title": "KUB Datalab",
-    "section": "KUB Datalab",
-    "text": "KUB Datalab\nKorrekt rød farve: a31d20"
-  },
-  {
-    "objectID": "slides/dblabpres.html#hvem-er-vi",
-    "href": "slides/dblabpres.html#hvem-er-vi",
-    "title": "KUB Datalab",
-    "section": "Hvem er vi?",
-    "text": "Hvem er vi?\n\n\n\n Christian Knudsen\n\n\n Søren Davidsen\n\n\n Daniel Pryn"
-  },
-  {
-    "objectID": "slides/dblabpres.html#hvad-laver-vi",
-    "href": "slides/dblabpres.html#hvad-laver-vi",
-    "title": "KUB Datalab",
-    "section": "Hvad laver vi?",
-    "text": "Hvad laver vi?"
-  },
-  {
-    "objectID": "slides/dblabpres.html#hvad-kan-vi",
-    "href": "slides/dblabpres.html#hvad-kan-vi",
-    "title": "KUB Datalab",
-    "section": "Hvad kan vi?",
-    "text": "Hvad kan vi?\nR Python Excel Struktur af data"
-  },
-  {
     "objectID": "slides/test.html#hyppige-fejl",
     "href": "slides/test.html#hyppige-fejl",
     "title": "Statistik",
@@ -196,11 +91,18 @@
     "text": "Korrelation er ikke kausalitet\nspurious correlations\nhttps://www.tylervigen.com/spurious/correlation/5920_per-capita-consumption-of-margarine_correlates-with_the-divorce-rate-in-maine\nKausalitet betyder at en hændelse er det den direkte konsekvens af en anden. Når jeg trykker på kontakten, tænder lyset. Lyset tænder som en direkte konsekvens af at jeg har trykket på kontakten.\nKorrelation betyder at to hændelser (eller variable) bevæger sig sammen. Når x stiger, stiger y også. Eller, en negativ korrelation. Når x stiger, falder y.\nDer kan være en sammenhæng. Når salget af solcreme stiger, stiger salget af ispinde også. Ikke fordi man får behov for solcreme når man spiser is. Men fordi solskin og godt vejr om sommeren fører til stigende behov for solcreme. Og fordi varmt vejr fører til større efterspørgsel efter ispinde.\nHvordan tester vi for om x og y har en kausal sammenhæng?\nVi designer vores eksperimenter så vi kan afgøre det. Random sampling, dobbelt blindede forsøg, tilpas store sample størrelser.\nOg så kan vi infer en sammenhæng. Men næppe bevise den. https://sketchplanations.com/correlation-is-not-causation"
   },
   {
-    "objectID": "slides/dblabpres.html#tre-billeder-side-om-side",
-    "href": "slides/dblabpres.html#tre-billeder-side-om-side",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "KUB Datalab slides",
+    "section": "",
+    "text": "Præsentationer\n\nDemo - mit første forsøg\nnr 2"
+  },
+  {
+    "objectID": "slides/dblabpres.html#kub-datalab",
+    "href": "slides/dblabpres.html#kub-datalab",
     "title": "KUB Datalab",
-    "section": "Tre billeder side om side",
-    "text": "Tre billeder side om side\n\n\n\n Christian Knudsen\n\n\n Søren Davidsen\n\n\n Daniel Pryn"
+    "section": "KUB Datalab",
+    "text": "KUB Datalab\nKorrekt rød farve: a31d20"
   },
   {
     "objectID": "slides/dblabpres.html#who-are-we",
@@ -222,6 +124,13 @@
     "title": "KUB Datalab",
     "section": "What do we offer?",
     "text": "What do we offer?\nkubkalender\n5+ ordningen\nIndlejrede kurser\nÅbne værksteder\nhttps://hack4.dk/ - men nok lidt sent lige nu."
+  },
+  {
+    "objectID": "slides/dblabpres.html#hvad-kan-vi",
+    "href": "slides/dblabpres.html#hvad-kan-vi",
+    "title": "KUB Datalab",
+    "section": "Hvad kan vi?",
+    "text": "Hvad kan vi?\n\nR\nPython\nExcel\nStruktur af data"
   },
   {
     "objectID": "slides/dblabpres.html#contact",
