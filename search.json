@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "slides/dblabpres.html#kub-datalab",
+    "href": "slides/dblabpres.html#kub-datalab",
+    "title": "KUB Datalab",
+    "section": "KUB Datalab",
+    "text": "KUB Datalab\nKorrekt rød farve: a31d20"
+  },
+  {
+    "objectID": "slides/dblabpres.html#who-are-we",
+    "href": "slides/dblabpres.html#who-are-we",
+    "title": "KUB Datalab",
+    "section": "Who are we?",
+    "text": "Who are we?\n\n\n\n Christian Knudsen\n\n\n Søren Davidsen\n\n\n Daniel Pryn"
+  },
+  {
+    "objectID": "slides/dblabpres.html#and-about-6-other-colleagues",
+    "href": "slides/dblabpres.html#and-about-6-other-colleagues",
+    "title": "KUB Datalab",
+    "section": "And about 6 other colleagues",
+    "text": "And about 6 other colleagues\n\nWith less time, but more expertise on:\n\nExcel\nNViVo\nVoyant\nVOSviewer\nSQL\nOrange\nOpenRefine\nMetashape\nRegular Expressions\nMetashape\nstatistics"
+  },
+  {
+    "objectID": "slides/dblabpres.html#what-do-we-offer",
+    "href": "slides/dblabpres.html#what-do-we-offer",
+    "title": "KUB Datalab",
+    "section": "What do we offer?",
+    "text": "What do we offer?\nkubkalender\n5+ ordningen\nIndlejrede kurser\nÅbne værksteder\nhttps://hack4.dk/ - men nok lidt sent lige nu."
+  },
+  {
+    "objectID": "slides/dblabpres.html#hvad-kan-vi",
+    "href": "slides/dblabpres.html#hvad-kan-vi",
+    "title": "KUB Datalab",
+    "section": "Hvad kan vi?",
+    "text": "Hvad kan vi?\n\nR\nPython\nExcel\nStruktur af data"
+  },
+  {
+    "objectID": "slides/dblabpres.html#contact",
+    "href": "slides/dblabpres.html#contact",
+    "title": "KUB Datalab",
+    "section": "Contact",
+    "text": "Contact\nmail etc"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "KUB Datalab slides",
+    "section": "",
+    "text": "Præsentationer\n\nDemo - mit første forsøg\nnr 2"
+  },
+  {
     "objectID": "slides/test.html#hyppige-fejl",
     "href": "slides/test.html#hyppige-fejl",
     "title": "Statistik",
@@ -89,54 +138,5 @@
     "title": "Statistik",
     "section": "Korrelation er ikke kausalitet",
     "text": "Korrelation er ikke kausalitet\nspurious correlations\nhttps://www.tylervigen.com/spurious/correlation/5920_per-capita-consumption-of-margarine_correlates-with_the-divorce-rate-in-maine\nKausalitet betyder at en hændelse er det den direkte konsekvens af en anden. Når jeg trykker på kontakten, tænder lyset. Lyset tænder som en direkte konsekvens af at jeg har trykket på kontakten.\nKorrelation betyder at to hændelser (eller variable) bevæger sig sammen. Når x stiger, stiger y også. Eller, en negativ korrelation. Når x stiger, falder y.\nDer kan være en sammenhæng. Når salget af solcreme stiger, stiger salget af ispinde også. Ikke fordi man får behov for solcreme når man spiser is. Men fordi solskin og godt vejr om sommeren fører til stigende behov for solcreme. Og fordi varmt vejr fører til større efterspørgsel efter ispinde.\nHvordan tester vi for om x og y har en kausal sammenhæng?\nVi designer vores eksperimenter så vi kan afgøre det. Random sampling, dobbelt blindede forsøg, tilpas store sample størrelser.\nOg så kan vi infer en sammenhæng. Men næppe bevise den. https://sketchplanations.com/correlation-is-not-causation"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "KUB Datalab slides",
-    "section": "",
-    "text": "Præsentationer\n\nDemo - mit første forsøg\nnr 2"
-  },
-  {
-    "objectID": "slides/dblabpres.html#kub-datalab",
-    "href": "slides/dblabpres.html#kub-datalab",
-    "title": "KUB Datalab",
-    "section": "KUB Datalab",
-    "text": "KUB Datalab\nKorrekt rød farve: a31d20"
-  },
-  {
-    "objectID": "slides/dblabpres.html#who-are-we",
-    "href": "slides/dblabpres.html#who-are-we",
-    "title": "KUB Datalab",
-    "section": "Who are we?",
-    "text": "Who are we?\n\n\n\n Christian Knudsen\n\n\n Søren Davidsen\n\n\n Daniel Pryn"
-  },
-  {
-    "objectID": "slides/dblabpres.html#and-about-6-other-colleagues",
-    "href": "slides/dblabpres.html#and-about-6-other-colleagues",
-    "title": "KUB Datalab",
-    "section": "And about 6 other colleagues",
-    "text": "And about 6 other colleagues\n\nWith less time, but more expertise on:\n\nExcel\nNViVo\nVoyant\nVOSviewer\nSQL\nOrange\nOpenRefine\nMetashape\nRegular Expressions\nMetashape\nstatistics"
-  },
-  {
-    "objectID": "slides/dblabpres.html#what-do-we-offer",
-    "href": "slides/dblabpres.html#what-do-we-offer",
-    "title": "KUB Datalab",
-    "section": "What do we offer?",
-    "text": "What do we offer?\nkubkalender\n5+ ordningen\nIndlejrede kurser\nÅbne værksteder\nhttps://hack4.dk/ - men nok lidt sent lige nu."
-  },
-  {
-    "objectID": "slides/dblabpres.html#hvad-kan-vi",
-    "href": "slides/dblabpres.html#hvad-kan-vi",
-    "title": "KUB Datalab",
-    "section": "Hvad kan vi?",
-    "text": "Hvad kan vi?\n\nR\nPython\nExcel\nStruktur af data"
-  },
-  {
-    "objectID": "slides/dblabpres.html#contact",
-    "href": "slides/dblabpres.html#contact",
-    "title": "KUB Datalab",
-    "section": "Contact",
-    "text": "Contact\nmail etc"
   }
 ]
