@@ -1,0 +1,68 @@
+---
+title: KUB Datalab
+format: revealjs
+engine: knitr
+---
+
+## KUB Datalab
+Korrekt rød farve:
+a31d20
+
+
+## Who are we?
+
+::: {layout-ncol=3}
+![](https://libapps-eu.s3.amazonaws.com/customers/105/images/cbk.jpg){fig-alt="cbk" width=80%}
+*Christian Knudsen*
+
+![](https://libapps-eu.s3.amazonaws.com/customers/105/images/sdav.jpg){fig-alt="sdav" width=80%}
+*Søren Davidsen*
+
+![](https://libapps-eu.s3.amazonaws.com/customers/105/images/pryn.jpg){fig-alt="pryn" width=80%}
+*Daniel Pryn*
+:::
+
+## And about 6 other colleagues
+<div style="font-size: 70%">
+With less time, but more expertise on:
+
+* Excel
+* NViVo
+* Voyant
+* VOSviewer 
+* SQL 
+* Orange
+* OpenRefine
+* Metashape
+* Regular Expressions 
+* Metashape 
+* statistics
+
+</div>
+
+## What do we offer?
+
+kubkalender
+
+5+ ordningen
+
+Indlejrede kurser
+
+Åbne værksteder
+
+https://hack4.dk/  - men nok lidt sent lige nu.
+
+
+
+
+## Hvad kan vi?
+
+R
+Python
+Excel
+Struktur af data
+
+
+## Contact
+
+mail etc

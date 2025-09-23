@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Slides + webR"
+  navbar:
+    left:
+      - text: "Demo - mit første forsøg"
+        href: slides/test.qmd
+        target: _blank
+      - text: "KUB Datalab presentation"
+        href: slides/dblabpres.qmd
+        target: _blank
+
+
+
+
