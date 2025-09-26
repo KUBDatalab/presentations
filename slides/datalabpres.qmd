@@ -2,11 +2,17 @@
 title: KUB Datalab
 format:
   revealjs:
-    theme: 
-        - custom.scss
+    logo: ../pics/kubdatalab.png
 engine: knitr
 ---
 
+## Datalab
+
+A service from Copenhagen University Library 
+
+Training, consultations and sparring for students
+
+We try to help you work with data!
 
 ## Who are we?
 
@@ -56,7 +62,14 @@ With less time, but more expertise on:
 * Excel
 * Sparring on structuring your data and work
 
+## Or just a live rubber duck
+
+![](../pics/rubberduck.avif)
+
 
 ## Contact
 
-mail etc
+- kub.kb.dk/datalab
+- kubkalender.kb.dk
+- kubdatalab@kb.dk
+- Open Workshops in Library Lighthouse every wednesday 1230 - 1430
