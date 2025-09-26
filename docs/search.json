@@ -95,14 +95,14 @@
     "href": "index.html",
     "title": "KUB Datalab slides",
     "section": "",
-    "text": "Præsentationer\n\nDemo - mit første forsøg\nnr 2"
+    "text": "General presentation"
   },
   {
     "objectID": "slides/dblabpres.html#kub-datalab",
     "href": "slides/dblabpres.html#kub-datalab",
     "title": "KUB Datalab",
     "section": "KUB Datalab",
-    "text": "KUB Datalab\nKorrekt rød farve: a31d20"
+    "text": "KUB Datalab\nKorrekt rød farve: a31d20 s7uk"
   },
   {
     "objectID": "slides/dblabpres.html#who-are-we",
@@ -123,7 +123,7 @@
     "href": "slides/dblabpres.html#what-do-we-offer",
     "title": "KUB Datalab",
     "section": "What do we offer?",
-    "text": "What do we offer?\nkubkalender\n5+ ordningen\nIndlejrede kurser\nÅbne værksteder\nhttps://hack4.dk/ - men nok lidt sent lige nu."
+    "text": "What do we offer?\n\nOpen courses\nCourses by request\nIn-class modules\nOpen workshops"
   },
   {
     "objectID": "slides/dblabpres.html#hvad-kan-vi",
@@ -137,6 +137,69 @@
     "href": "slides/dblabpres.html#contact",
     "title": "KUB Datalab",
     "section": "Contact",
-    "text": "Contact\nmail etc"
+    "text": "Contact\n\nkub.kb.dk/datalab\nkubkalender.kb.dk\nkubdatalab@kb.dk\nOpen Workshops in Library Lighthouse every wednesday 1230 - 1430"
+  },
+  {
+    "objectID": "slides/dblabpres.html#what-might-be-relevant-for-you",
+    "href": "slides/dblabpres.html#what-might-be-relevant-for-you",
+    "title": "KUB Datalab",
+    "section": "What might be relevant for you?",
+    "text": "What might be relevant for you?\n\nR\nPython\nExcel\nSparring on structuring your data and work"
+  },
+  {
+    "objectID": "slides/dblabpres.html#or-just-a-live-rubber-duck",
+    "href": "slides/dblabpres.html#or-just-a-live-rubber-duck",
+    "title": "KUB Datalab",
+    "section": "Or just a live rubber duck",
+    "text": "Or just a live rubber duck"
+  },
+  {
+    "objectID": "slides/datalabpres.html#who-are-we",
+    "href": "slides/datalabpres.html#who-are-we",
+    "title": "KUB Datalab",
+    "section": "Who are we?",
+    "text": "Who are we?\n\n\n\n Christian Knudsen\n\n\n Søren Davidsen\n\n\n Daniel Pryn"
+  },
+  {
+    "objectID": "slides/datalabpres.html#and-about-6-other-colleagues",
+    "href": "slides/datalabpres.html#and-about-6-other-colleagues",
+    "title": "KUB Datalab",
+    "section": "And about 6 other colleagues",
+    "text": "And about 6 other colleagues\n\nWith less time, but more expertise on:\n\nExcel\nNViVo\nVoyant\nVOSviewer\nSQL\nOrange\nOpenRefine\nMetashape\nRegular Expressions\nMetashape\nstatistics"
+  },
+  {
+    "objectID": "slides/datalabpres.html#what-do-we-offer",
+    "href": "slides/datalabpres.html#what-do-we-offer",
+    "title": "KUB Datalab",
+    "section": "What do we offer?",
+    "text": "What do we offer?\n\nOpen courses\nCourses by request\nIn-class modules\nOpen workshops"
+  },
+  {
+    "objectID": "slides/datalabpres.html#what-might-be-relevant-for-you",
+    "href": "slides/datalabpres.html#what-might-be-relevant-for-you",
+    "title": "KUB Datalab",
+    "section": "What might be relevant for you?",
+    "text": "What might be relevant for you?\n\nR\nPython\nExcel\nSparring on structuring your data and work"
+  },
+  {
+    "objectID": "slides/datalabpres.html#or-just-a-live-rubber-duck",
+    "href": "slides/datalabpres.html#or-just-a-live-rubber-duck",
+    "title": "KUB Datalab",
+    "section": "Or just a live rubber duck",
+    "text": "Or just a live rubber duck"
+  },
+  {
+    "objectID": "slides/datalabpres.html#contact",
+    "href": "slides/datalabpres.html#contact",
+    "title": "KUB Datalab",
+    "section": "Contact",
+    "text": "Contact\n\nkub.kb.dk/datalab\nkubkalender.kb.dk\nkubdatalab@kb.dk\nOpen Workshops in Library Lighthouse every wednesday 1230 - 1430"
+  },
+  {
+    "objectID": "slides/datalabpres.html#datalab",
+    "href": "slides/datalabpres.html#datalab",
+    "title": "KUB Datalab",
+    "section": "Datalab",
+    "text": "Datalab\nA service from Copenhagen University Library\nTraining, consultations and sparring for students\nWe try to help you work with data!"
   }
 ]

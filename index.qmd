@@ -3,7 +3,4 @@ title: "KUB Datalab slides"
 format: html
 ---
 
-# Præsentationer
-
-- [Demo - mit første forsøg](slides/test.qmd)
-- [nr 2](slides/dblabpres.qmd)
+- [General presentation](slides/datalabpres.qmd)
