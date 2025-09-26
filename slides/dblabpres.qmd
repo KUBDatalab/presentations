@@ -1,12 +1,11 @@
 ---
 title: KUB Datalab
-format: revealjs
+format:
+  revealjs:
+    theme: 
+        - custom.scss
 engine: knitr
 ---
-
-## KUB Datalab
-Korrekt rød farve:
-a31d20
 
 
 ## Who are we?
@@ -42,25 +41,20 @@ With less time, but more expertise on:
 
 ## What do we offer?
 
-kubkalender
-
-5+ ordningen
-
-Indlejrede kurser
-
-Åbne værksteder
-
-https://hack4.dk/  - men nok lidt sent lige nu.
+- Open courses
+- Courses by request
+- In-class modules
+- Open workshops
 
 
 
 
-## Hvad kan vi?
+## What might be relevant for you?
 
 * R
 * Python
 * Excel
-* Struktur af data
+* Sparring on structuring your data and work
 
 
 ## Contact
